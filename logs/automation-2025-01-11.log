@@ -1,0 +1,60 @@
+15:20:57.495 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+15:20:58.436 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+15:23:50.216 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+15:23:51.074 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+15:24:00.929 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest ****** 
+15:24:01.872 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link 
+15:24:03.040 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+15:24:03.049 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details... 
+15:24:05.680 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected Message... 
+15:24:05.799 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Finished TC_001_AccountRegistrationTest ******* 
+15:24:14.645 [main] INFO  testCases.TC_002_LoginTest - ***** Starting TC_002_LoginTest *****
+15:24:17.398 [main] INFO  testCases.TC_002_LoginTest - ***** TC_002_Login is Finished ****** 
+15:25:20.988 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+15:25:21.846 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+15:25:32.017 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest ****** 
+15:25:32.290 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link 
+15:25:33.163 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+15:25:33.173 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details... 
+15:25:35.712 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected Message... 
+15:25:35.822 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Finished TC_001_AccountRegistrationTest ******* 
+15:25:44.682 [main] INFO  testCases.TC_002_LoginTest - ***** Starting TC_002_LoginTest *****
+15:25:48.080 [main] INFO  testCases.TC_002_LoginTest - ***** TC_002_Login is Finished ****** 
+08:34:33.713 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+08:34:34.620 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+08:34:54.632 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest ****** 
+08:34:55.489 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link 
+08:34:56.656 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+08:34:56.688 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details... 
+08:34:59.734 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected Message... 
+08:34:59.841 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Finished TC_001_AccountRegistrationTest ******* 
+08:35:10.174 [main] INFO  testCases.TC_002_LoginTest - ***** Starting TC_002_LoginTest *****
+08:35:13.233 [main] INFO  testCases.TC_002_LoginTest - ***** TC_002_Login is Finished ****** 
+08:39:14.081 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+08:39:15.017 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+08:39:27.931 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest ****** 
+08:39:28.801 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link 
+08:39:29.703 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+08:39:29.732 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details... 
+08:39:32.690 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected Message... 
+08:39:32.784 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed... 
+08:39:32.784 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Debugs logs... 
+08:39:43.166 [main] INFO  testCases.TC_002_LoginTest - ***** Starting TC_002_LoginTest *****
+08:39:46.738 [main] INFO  testCases.TC_002_LoginTest - ***** TC_002_Login is Finished ****** 
+08:49:49.951 [main] DEBUG org.testng.TestNG - suiteXmlPath: "G:\VikashAutomation\OpenCart05\Grouping.xml"
+08:49:50.811 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  G:\VikashAutomation\OpenCart05\Grouping.xml
+
+08:50:02.899 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest ****** 
+08:50:03.171 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link 
+08:50:04.257 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 

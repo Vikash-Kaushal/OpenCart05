@@ -1,0 +1,94 @@
+1) Test Case: Account Registration
+  1.1: Create BasePage under "pageObjects" which includes only constructor. This will be invoked
+  by every Page Object Class Constructor (Re-usability)
+
+  1.2: Create Page Object Classes for HomePage, RegistrationPage under pageObjects package. (These
+  Classes extends from BasePage).
+
+  1.3: Create AccountRegistrationTest under "testCases"
+
+  1.4: Create BaseClass under testBase package and copy re-usable methods.
+
+  1.5: Create re-usable methods to generate random numbers and Strings in BaseClass.
+
+2) Adding logs to test case (log4j2)
+  2.1: Add log4j2.xml file under src/main/resources.
+
+  2.2: Update BaseClass.
+
+  2.3 Add log statements to AccountRegistrationTest.
+
+  import org.apache.logging.log4j.LogManager; // Log4j
+  import org.apache.logging.log4j.Logger;     //Log4j
+
+  Logging -> record all the events in the form of texts.
+
+  Log Levels -> All < Trace < Debug < Info < Warn < Error < Fatal < Off
+
+  Appenders-> Where to generate logs (Console/File)
+  -----------
+  Loggers -> What type of logs generate (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+
+
+3) Run tests on Desired Browser/Cross Browser/Parallel
+
+ 3.1: Create testng.xml file to run Test cases and parameterize browser name and OS to BaseClass-> setUp()
+      method  (Creating file master.xml to run the xml file)
+
+ 3.2: Update BaseClass-> setUp() method, launch browser based on conditions.
+
+ 3.3 : Maintain separate xml to run tests multiple browsers based on conditions.
+
+
+5-> Login Test Case
+ 5.1)- Create and update page object classes Loginpage, MyAccountPage - new classes HomePage - update
+ by adding login link element.
+
+ 5.2)- Create LoginTest
+
+ 5.3)- Add entry testing.xml
+
+6-> Data Driven Login Test
+  6.1) Prepare Test data in excel, place the excel file inside the testData folder
+
+  6.2) Create ExecelUtilty class unser utilites package
+
+  6.3) Update Page Object class MyAccountPage, add logout link element
+
+  6.4) Create DataProviders class in utilities package to maintain data providers for data driven tests.
+
+  6.5) Create LoginDataDrivenTests under testCases package.
+
+  6.6) Add an Entry in testng.xml file.
+
+7-> Grouping Tests.
+  7.1) Add all the cases into specific group [sanity, regression, master etc.]
+
+  7.2) Also add BaseClass methods setup() & tearDown() to all groups.
+
+  7.3) Create separate TestNG.xml file (grouping.xml) to run groups and include groups which we want to execute
+
+8-> Add Extent Reports
+  8.1) Create ExtentReportUtility utility class under utilities package
+
+  8.2) Add captureScreen() method in BaseClass
+
+  8.3) Add ExtentReportUtility(Listener class) entry in testng.xml file
+
+  8.4) Make sure WebDriver is static in BaseClass, we refer same driver instance in ExtentReportUtility.
+
+9-> Run Failed Tests.
+  9.1) test-output-> testng-failed.xml
+
+10-> Run Tests on Selenium Grid
+ Grid setup:
+ ----------
+    * Download selenium-server-4.30.0.jar and place it somewhere.
+    * Run below command in command prompt to start Selenium Grid
+                java-jar selenium-server-4.15.0.jar standlone
+    * URL to see sessions: http://localhost.4444/
+
+   10.1) Add execution_env=local/remote in config.properties file under resources folder.
+
+   10.2) Update setUp() method in the BaseClass() (capture execution environment from config.properties
+   file then add required capabilities of OS & Browser in conditions).
